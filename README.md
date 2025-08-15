@@ -190,7 +190,7 @@ Masuk ke halaman **Things** dan pada bagian **Cloud Variables**, klik **Add** da
 3. Setelah semua konfigurasi selesai, sambungkan ESP32 ke komputer dan unggah sketch ke perangkat.
 
 ### 4.3 Tampilan Serial Monitor
-![](./docs/Serial20%Monitor20%-20%ESP3220%#1.png)
+![](./docs/Serial%20Monitor%20-%20ESP32%20#1.png)
 
 
 ## 5 Menjalankan ESP32 #3 - IoT Gateway & Reporting Unit
