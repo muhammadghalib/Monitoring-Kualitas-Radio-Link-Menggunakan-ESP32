@@ -262,7 +262,7 @@ Masuk ke halaman **Things** dan pada bagian **Cloud Variables**, klik **Add** da
 
 ---
 
-## 5.8 Menyiapkan dan Mengunggah *Sketch*
+## 5.8 Menyiapkan dan Mengunggah Sketch
 
 1. Buka file berikut di Arduino IDE atau editor yang Anda gunakan:  
     ```bash
@@ -275,7 +275,7 @@ Masuk ke halaman **Things** dan pada bagian **Cloud Variables**, klik **Add** da
       ```
     - **Baris ke-23**: Masukkan 16 digit Author Password dari akun Google pengirim, contoh :
       ```c++
-      #define AUTHOR_PASSWORD "xxxx xxxx xxx xxxx"
+      #define AUTHOR_PASSWORD "aaaa bbbb cccc dddd"
       ```
     - **Baris ke-24**: Masukkan alamat email penerima, contoh :
       ```c++
