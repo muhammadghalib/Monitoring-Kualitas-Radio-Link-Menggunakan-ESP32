@@ -88,7 +88,7 @@ git clone https://github.com/muhammadghalib/Monitoring-Kualitas-Radio-Link-Mengg
 
 ### 2. Install Library
 
-Salin semua folder di dalam direktori `arduino-libraries/` pada repository ini ke dalam folder **libraries Arduino** di perangkat Anda.
+Buka file txt yang ada di direktori `arduino-libraries/` pada repository ini dan download semua librarynya ke dalam folder **libraries Arduino** di perangkat Anda.
 
 ---
 
@@ -141,7 +141,7 @@ Masuk ke halaman **Things** dan pada bagian **Cloud Variables**, klik **Add** da
 
 1. Buka file berikut di Arduino IDE atau editor yang Anda gunakan:  
     ```bash
-    radio_link_simulator.ino
+    esp32_unit_1_radio_link_simulator_unit.ino
     ```
 2. Sesuaikan konfigurasi berikut pada baris kode:
     - **Baris ke-21**: Masukkan alamat IP yang akan digunakan, contoh :
@@ -173,7 +173,7 @@ Masuk ke halaman **Things** dan pada bagian **Cloud Variables**, klik **Add** da
 
 1. Buka file berikut di Arduino IDE atau editor yang Anda gunakan:  
     ```bash
-    esp32_2.ino
+    esp32_unit_2_monitoring_unit.ino
     ```
 2. Sesuaikan konfigurasi berikut pada baris kode:
     - **Baris ke-32**: Masukkan alamat IP yang akan digunakan, contoh :
@@ -266,7 +266,7 @@ Masuk ke halaman **Things** dan pada bagian **Cloud Variables**, klik **Add** da
 
 1. Buka file berikut di Arduino IDE atau editor yang Anda gunakan:  
     ```bash
-    esp32_1.ino
+    esp32_unit_3_iot_gateway_and_reporting_unit.ino
     ``` 
 2. Sesuaikan konfigurasi berikut pada baris kode:
     - **Baris ke-22**: Masukkan alamat email pengirim, contoh :
