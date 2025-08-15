@@ -30,6 +30,7 @@ Proyek ini bertujuan untuk memantau kualitas radio link secara real-time dengan 
 |     -      |  RX2     |  TX2     |
 
 ## 📘 Skematik Rangkaian
+![](./docs/Schematic.jpg)
 
 ## 🔁 Flowchart Sistem
 
