@@ -33,6 +33,7 @@ Proyek ini bertujuan untuk memantau kualitas radio link secara real-time dengan 
 ![](./docs/Schematic.jpg)
 
 ## 🔁 Flowchart Sistem
+![](.docs/Flowchart.jpg)
 
 ## 📊 Parameter yang Dimonitor
 - RSSI (Received Signal Strength Indicator)
@@ -305,7 +306,7 @@ Masuk ke halaman **Things** dan pada bagian **Cloud Variables**, klik **Add** da
 
 
 ## 📸 Dokumentasi
-
+![](.docs/Documentation.jpg)
 
 
 ## 💡 STAY CURIOUS
