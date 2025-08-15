@@ -125,7 +125,7 @@ Masuk ke halaman **Things** dan pada bagian **Cloud Variables**, klik **Add** da
 
 ### 3.4 Salin Konfigurasi ke Sketch
 
-- Buka file `thingProperties.h` pada sketch Arduino IOT Cloud
+- Buka file `thingProperties.h` pada sketch Arduino IOT Cloud.
 - Salin nilai `DEVICE_LOGIN_NAME`, `SSID`, `PASS`, dan `DEVICE_KEY` ke dalam file:
   ```
   thingPropertiesVorlinkvueDeveloper.h
@@ -225,7 +225,7 @@ Masuk ke halaman **Things** dan pada bagian **Cloud Variables**, klik **Add** da
 
 ## 5.4 Salin Konfigurasi ke Sketch
 
-- Buka file `thingProperties.h` pada sketch Arduino
+- Buka file `thingProperties.h` pada sketch Arduino IOT Cloud.
 - Salin nilai `DEVICE_LOGIN_NAME`, `SSID`, `PASS`, dan `DEVICE_KEY` ke dalam file:
   ```
   thingPropertiesVorlinkvue.h
