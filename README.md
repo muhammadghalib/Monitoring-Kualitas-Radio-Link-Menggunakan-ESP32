@@ -305,6 +305,7 @@ Masuk ke halaman **Things** dan pada bagian **Cloud Variables**, klik **Add** da
   ![](./docs/Email_Disconnected_ESP32_3.png)
 
 ### 5.12 Tampilan Spreadsheet
+![](./docs/Spreadsheet_ESP32_3.png)
 
 ## 📝 Catatan Penting 
 1. Apabila ingin memonitor radio link asli (bukan menggunakan ESP32 radio link simulator), pastikan Anda mengetahui alamat IP dan OID yang digunakan oleh perangkat radio link tersebut, lalu masukkan alamat IP dan OID tersebut ke dalam source code ESP32 #2.
