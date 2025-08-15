@@ -243,7 +243,7 @@ Masuk ke halaman **Things** dan pada bagian **Cloud Variables**, klik **Add** da
 2. Beri nama **`Radio Link Tower - Log`**.  
 3. Buat tabel sesuai contoh berikut:  
 
-   ![Contoh Dashboard](link-gambar-dashboard-anda-di-sini)  
+   ![](./docs/Spreadsheet_example.png)
 
 ## 5.7 Konfigurasi *Extensions* Spreadsheet
 
