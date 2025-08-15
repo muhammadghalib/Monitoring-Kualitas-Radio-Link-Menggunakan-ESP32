@@ -88,7 +88,7 @@ git clone https://github.com/muhammadghalib/Monitoring-Kualitas-Radio-Link-Mengg
 
 ### 2. Install Library
 
-Salin semua folder di dalam direktori `libraries/` pada repository ini ke dalam folder **libraries Arduino** di perangkat Anda.
+Salin semua folder di dalam direktori `arduino-libraries/` pada repository ini ke dalam folder **libraries Arduino** di perangkat Anda.
 
 ---
 
@@ -126,7 +126,7 @@ Masuk ke halaman **Things** dan pada bagian **Cloud Variables**, klik **Add** da
 ### 3.4 Salin Konfigurasi ke Sketch
 
 - Buka file `thingProperties.h` pada sketch Arduino IOT Cloud
-- Salin nilai `DEVICE_LOGIN_NAME`, `DEVICE_ID`, dan `DEVICE_KEY` ke dalam file:
+- Salin nilai `DEVICE_LOGIN_NAME`, `SSID`, `PASS`, dan `DEVICE_KEY` ke dalam file:
   ```
   thingPropertiesVorlinkvueDeveloper.h
   ```
@@ -226,7 +226,7 @@ Masuk ke halaman **Things** dan pada bagian **Cloud Variables**, klik **Add** da
 ## 5.4 Salin Konfigurasi ke Sketch
 
 - Buka file `thingProperties.h` pada sketch Arduino
-- Salin nilai `DEVICE_LOGIN_NAME`, `DEVICE_ID`, dan `DEVICE_KEY` ke dalam file:
+- Salin nilai `DEVICE_LOGIN_NAME`, `SSID`, `PASS`, dan `DEVICE_KEY` ke dalam file:
   ```
   thingPropertiesVorlinkvue.h
   ```
