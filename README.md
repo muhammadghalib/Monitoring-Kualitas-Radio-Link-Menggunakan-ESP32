@@ -155,10 +155,10 @@ Masuk ke halaman **Things** dan pada bagian **Cloud Variables**, klik **Add** da
 3. Setelah semua konfigurasi selesai, sambungkan ESP32 ke komputer dan unggah sketch ke perangkat.
 
 ### 3.7 Tampilan Serial Monitor
-  ![](./docs/Serial_Monitor_ESP32_1.png)
+![](./docs/Serial_Monitor_ESP32_1.png)
 
 ### 3.8 Tampilan Dashboard Arduino IOT Cloud
-  ![](./docs/Dashboard_ESP32_1.png)
+![](./docs/Dashboard_ESP32_1.png)
 
 
 ## 4 Menjalankan ESP32 #2 - Monitoring Unit
@@ -191,7 +191,7 @@ Masuk ke halaman **Things** dan pada bagian **Cloud Variables**, klik **Add** da
 3. Setelah semua konfigurasi selesai, sambungkan ESP32 ke komputer dan unggah sketch ke perangkat.
 
 ### 4.3 Tampilan Serial Monitor
-
+![](./docs/Serial_Monitor_ESP32_2.png)
 
 
 ## 5 Menjalankan ESP32 #3 - IoT Gateway & Reporting Unit
@@ -288,6 +288,7 @@ Masuk ke halaman **Things** dan pada bagian **Cloud Variables**, klik **Add** da
 3. Setelah semua konfigurasi selesai, sambungkan ESP32 ke komputer dan unggah sketch ke perangkat.
 
 ### 5.9 Tampilan Serial Monitor
+![](./docs/Serial_Monitor_ESP32_3.png)
 
 ### 5.10 Tampilan Dashboard Arduino IOT Cloud
 
