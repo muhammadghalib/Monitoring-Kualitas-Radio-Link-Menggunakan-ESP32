@@ -299,9 +299,9 @@ Masuk ke halaman **Things** dan pada bagian **Cloud Variables**, klik **Add** da
 
 ### 5.11 Tampilan Email
 
-- Sangat koneksi terhubung
+- Saat koneksi terhubung
   ![](./docs/Email_Connected_ESP32_3.png)
-- Sangat koneksi terputus
+- Saat koneksi terputus
   ![](./docs/Email_Disconnected_ESP32_3.png)
 
 ### 5.12 Tampilan Spreadsheet
