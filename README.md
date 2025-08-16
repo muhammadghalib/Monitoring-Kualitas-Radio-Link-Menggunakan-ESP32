@@ -59,19 +59,19 @@ Proyek ini bertujuan untuk memantau kualitas radio link secara real-time dengan 
 ## 🔧 Pembagian Tugas ESP32
 Sistem ini terdiri dari tiga buah ESP32 yang memiliki fungsi dan tanggung jawab berbeda, berikut rinciannya.
 
-### 📡 ESP32 #1 – Radio Link Simulator Unit
+## 📡 ESP32 #1 – Radio Link Simulator Unit
 
 - Bertugas sebagai SNMP agent yang Menyediakan data parameter radio link secara dinamis melalui protokol SNMP untuk diakses oleh ESP32 #2 selaku SNMP client.
 - Terintegrasi dengan Arduino IoT Cloud untuk memungkinkan pengaturan keluaran nilai parameter SNMP secara fleksibel.
 
-### 📟 ESP32 #2 – Monitoring Unit
+## 📟 ESP32 #2 – Monitoring Unit
 
 - Melakukan ping secara periodik ke radio link.
 - Mengambil data-data parameter menggunakan protokol SNMP.
 - Mengklasifikasikan kualitas sinyal berdasarkan standar TIPHON.
 - Mengirimkan seluruh data hasil analisis ke ESP32 #3 melalui UART.
 
-### 🌐 ESP32 #3 – IoT Gateway & Reporting Unit
+## 🌐 ESP32 #3 – IoT Gateway & Reporting Unit
 
 - Menerima data dari ESP32 #2 via UART
 - Mengirimkan data RSSI, SNR, status koneksi radio link, status perangkat radio link dan opsi restart sistem monitoring ke Arduino IOT Cloud.
@@ -80,21 +80,21 @@ Sistem ini terdiri dari tiga buah ESP32 yang memiliki fungsi dan tanggung jawab 
 
 ## 🚀 Memulai Proyek
 
-### 1. Clone Repository
+## 1. Clone Repository
 
 ```bash
 git clone https://github.com/muhammadghalib/Monitoring-Kualitas-Radio-Link-Menggunakan-ESP32.git
 ```
 
-### 2. Install Library
+## 2. Install Library
 
 Buka file txt yang ada di direktori `arduino-libraries/` pada repository ini dan download semua librarynya ke dalam folder **libraries Arduino** di perangkat Anda.
 
 
 
-### 3. Menjalankan ESP32 #1 - Radio Link Simulator Unit
+## 3. Menjalankan ESP32 #1 - Radio Link Simulator Unit
 
-### 3.1 Buat Variabel di Arduino IoT Cloud
+## 3.1 Buat Variabel di Arduino IoT Cloud
 
 Masuk ke halaman **Things** dan pada bagian **Cloud Variables**, klik **Add** dan tambahkan variabel berikut:
 
@@ -106,14 +106,14 @@ Masuk ke halaman **Things** dan pada bagian **Cloud Variables**, klik **Add** da
 | koneksiBuruk      | Boolean   | Read & Write   | On Change      |
 | koneksiTerputus   | Boolean   | Read & Write   | On Change      |
 
-### 3.2 Setup Device ESP32
+## 3.2 Setup Device ESP32
 
 1. Pada panel kanan **Associated Device**, klik **Select Device** → **Setup New Device**.
 2. Pilih **Third Party Device** → `ESP32`.
 3. Pada bagian **Select Model**, pilih `DOIT ESP32 DEVKIT V1`.
 4. Simpan file PDF yang berisi **Device ID** dan **Secret Key**.
 
-### 3.3 Konfigurasi Jaringan
+## 3.3 Konfigurasi Jaringan
 
 - Masuk ke bagian **Network**, klik **Configure**
 - Isi kolom berikut:
@@ -121,7 +121,7 @@ Masuk ke halaman **Things** dan pada bagian **Cloud Variables**, klik **Add** da
   - `WiFi Password`
   - `Secret Key` dari file PDF tadi
 
-### 3.4 Salin Konfigurasi ke Sketch
+## 3.4 Salin Konfigurasi ke Sketch
 
 - Buka file `thingProperties.h` pada sketch Arduino IOT Cloud.
 - Salin nilai `DEVICE_LOGIN_NAME`, `SSID`, `PASS`, dan `DEVICE_KEY` ke dalam file:
@@ -135,7 +135,7 @@ Masuk ke halaman **Things** dan pada bagian **Cloud Variables**, klik **Add** da
 2. Tambahkan **Switch** untuk masing-masing opsi kualitas koneksi.
 3. Hubungkan setiap variabel ke masing-masing widgets.
 
-### 3.6 Menyiapkan dan Mengunggah Sketch
+## 3.6 Menyiapkan dan Mengunggah Sketch
 
 1. Buka file berikut di Arduino IDE atau editor yang Anda gunakan:  
     ```bash
@@ -152,22 +152,22 @@ Masuk ke halaman **Things** dan pada bagian **Cloud Variables**, klik **Add** da
       ```
 3. Setelah semua konfigurasi selesai, sambungkan ESP32 ke komputer dan unggah sketch ke perangkat.
 
-### 3.7 Tampilan Serial Monitor
+## 3.7 Tampilan Serial Monitor
 ![](./docs/Serial_Monitor_ESP32_1.png)
 
-### 3.8 Tampilan Dashboard Arduino IOT Cloud
+## 3.8 Tampilan Dashboard Arduino IOT Cloud
 ![](./docs/Dashboard_ESP32_1.png)
 
 
 ## 4 Menjalankan ESP32 #2 - Monitoring Unit
 
-### 4.1 Hubungkan Perangkat
+## 4.1 Hubungkan Perangkat
 
 - Hubungkan **ESP32** dengan **modul W5500 Lite**
 - Hubungkan kabel **Ethernet/LAN** ke port W5500 dan pastikan terhubung ke jaringan lokal
 - Hubungkan ESP32 #2 dan ESP32 #3 sesuai dengan skematik rangkaian.
 
-### 4.2 Menyiapkan dan Mengunggah Sketch
+## 4.2 Menyiapkan dan Mengunggah Sketch
 
 1. Buka file berikut di Arduino IDE atau editor yang Anda gunakan:  
     ```bash
@@ -188,7 +188,7 @@ Masuk ke halaman **Things** dan pada bagian **Cloud Variables**, klik **Add** da
       ```
 3. Setelah semua konfigurasi selesai, sambungkan ESP32 ke komputer dan unggah sketch ke perangkat.
 
-### 4.3 Tampilan Serial Monitor
+## 4.3 Tampilan Serial Monitor
 ![](./docs/Serial_Monitor_ESP32_2.png)
 
 
@@ -285,24 +285,24 @@ Masuk ke halaman **Things** dan pada bagian **Cloud Variables**, klik **Add** da
       ```
 3. Setelah semua konfigurasi selesai, sambungkan ESP32 ke komputer dan unggah sketch ke perangkat.
 
-### 5.9 Tampilan Serial Monitor
+## 5.9 Tampilan Serial Monitor
 ![](./docs/Serial_Monitor_ESP32_3.png)
 
-### 5.10 Tampilan Dashboard Arduino IOT Cloud
+## 5.10 Tampilan Dashboard Arduino IOT Cloud
 
 - Saat koneksi sangat baik
   ![](./docs/Dashboard_Connected_ESP32_3.png)
 - Saat koneksi terputus
   ![](./docs/Dashboard_Disconnected_ESP32_3.png)
 
-### 5.11 Tampilan Email
+## 5.11 Tampilan Email
 
 - Saat koneksi terhubung
   ![](./docs/Email_Connected_ESP32_3.png)
 - Saat koneksi terputus
   ![](./docs/Email_Disconnected_ESP32_3.png)
 
-### 5.12 Tampilan Spreadsheet
+## 5.12 Tampilan Spreadsheet
 ![](./docs/Spreadsheet_ESP32_3.png)
 
 ## 📝 Catatan Penting 
