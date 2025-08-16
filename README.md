@@ -80,17 +80,15 @@ Sistem ini terdiri dari tiga buah ESP32 yang memiliki fungsi dan tanggung jawab 
 
 ## 🚀 Memulai Proyek
 
-## 1. Clone Repository
+### 1. Clone Repository
 
 ```bash
 git clone https://github.com/muhammadghalib/Monitoring-Kualitas-Radio-Link-Menggunakan-ESP32.git
 ```
 
-## 2. Install Library
+### 2. Install Library
 
 Buka file txt yang ada di direktori `arduino-libraries/` pada repository ini dan download semua librarynya ke dalam folder **libraries Arduino** di perangkat Anda.
-
-
 
 ## 3. Menjalankan ESP32 #1 - Radio Link Simulator Unit
 
