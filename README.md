@@ -90,8 +90,6 @@ git clone https://github.com/muhammadghalib/Monitoring-Kualitas-Radio-Link-Mengg
 
 Buka file txt yang ada di direktori `arduino-libraries/` pada repository ini dan download semua librarynya ke dalam folder **libraries Arduino** di perangkat Anda.
 
----
-
 
 
 ### 3. Menjalankan ESP32 #1 - Radio Link Simulator Unit
