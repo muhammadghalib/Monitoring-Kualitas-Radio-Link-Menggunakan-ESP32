@@ -83,7 +83,7 @@ Sistem ini terdiri dari tiga buah ESP32 yang memiliki fungsi dan tanggung jawab 
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/muhammadghalib/Monitoring-Kualitas-Radio-Link-Menggunakan-ESP32.git
+git clone https://github.com/muhammadghalib/Sistem-Monitoring-Kualitas-Radio-Link-Menggunakan-ESP32.git
 ```
 
 ### 2. Install Library
