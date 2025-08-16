@@ -1,4 +1,4 @@
-# 🖧 Sistem Monitoring Kualitas Radio Link Menggunakan ESP32
+# 🖧 Sistem Monitoring Kualitas Radio Link Berbasis ESP32
 
 ## Deskripsi proyek
 Proyek ini bertujuan untuk memantau kualitas radio link secara real-time dengan menggunakan dua buah ESP32. Sistem ini mengukur parameter RSSI berdasarkan standar TIPHON dan Access Point Name untuk mengklasifikasikan kualitas koneksi radio link, serta memantau beberapa parameter lainnya seperti SNR melalui protokol SNMP. Selain menampilkan data ke Arduino IoT Cloud, sistem juga mengirimkan notifikasi email dan mencatat data ke dalam Google Spreadsheet sebagai log historis.
@@ -83,7 +83,7 @@ Sistem ini terdiri dari tiga buah ESP32 yang memiliki fungsi dan tanggung jawab 
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/muhammadghalib/Sistem-Monitoring-Kualitas-Radio-Link-Menggunakan-ESP32.git
+git clone https://github.com/muhammadghalib/Sistem-Monitoring-Kualitas-Radio-Link-Berbasis-ESP32.git
 ```
 
 ### 2. Install Library
