@@ -250,7 +250,7 @@ Masuk ke halaman **Things** dan pada bagian **Cloud Variables**, klik **Add** da
 1. Klik menu **Extensions**.  
 2. Pilih **Apps Script**.  
 3. Beri nama proyek **`Radio Link Tower - Apps Script`**.  
-4. Buka file **`script.gs`** pada folder **tools -> google_apps_script** di repository ini.  
+4. Buka file **`script.gs`** pada folder **tools → google_apps_script** di repository ini.  
 5. Salin seluruh kode dari file tersebut, lalu tempelkan pada editor *Apps Script*.  
 6. Tekan **CTRL + S** untuk menyimpan.  
 7. Klik **Deploy** → **Manage Deployment**.  
